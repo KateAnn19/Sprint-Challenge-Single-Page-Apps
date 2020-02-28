@@ -4,6 +4,53 @@ body {
   font-family: sans-serif;
 }
 
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.morty-header {
+  color: #1c5d76;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 32px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1c5d76;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  border-bottom: 1px solid #1c5d76;
+}
+
 main {
   width: 85vw;
   min-height: 80vh;
@@ -27,13 +74,17 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+}
+
+.capital {
+  text-transform: capitalize;
 }

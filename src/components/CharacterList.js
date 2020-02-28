@@ -47,23 +47,12 @@ export default function CharacterList() {
           autoComplete="off"
         />
       </form>
-      <div className="character">
-        {data.map(data => {
+
+      {data.map(data => {
           return (
-            <div className="character-list " key={data.id}>
-              <h2>
-                <span aria-label="stars-moon" role="img">
-                ✨
-                </span>
-                {data.name}
-              </h2>
-              <h3 className="capital">Status: {data.status}</h3>
-              <h3 className="capital">Species: {data.species}</h3>
-              <h3 className="capital">Gender: {data.gender}</h3>
-            </div>
+            <CharacterCard data ={data}/>
           );
         })}
-      </div>   
     </div>
   )
 }

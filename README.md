@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+Client-side routing loads data all at once on a page when we first access a webpage or app, but, if we click on a link, we see smooth transitions and routing between views is usually faster. Using client-side routing also makes animations between views easier.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

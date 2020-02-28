@@ -7,7 +7,7 @@ export default function WelcomePage() {
     <section className="welcome-page">
       <header>
       <StyledDiv>
-        <h1>Welcome to The Ultimate Fan Site!</h1>
+        <h1 class="slogan">Welcome to The Ultimate Fan Site!</h1>
       </StyledDiv>
       </header>
         <img

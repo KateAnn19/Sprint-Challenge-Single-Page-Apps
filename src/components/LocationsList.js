@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import LocationCard from "./LocationCard";
 
 
 
@@ -48,16 +49,7 @@ export default function LocationsList() {
       <div className="locations">
         {location.map(data => {
           return (
-            <div className="character-list " key={data.id}>
-              <h2>
-                <span aria-label="smile" role="img">
-                🧙
-                </span>
-                {data.name}
-              </h2>
-              <h3 className="location">Status: {data.type}</h3>
-              <h3 className="location">Species: {data.dimension}</h3>
-            </div>
+            <LocationCard data={data}/>
           );
         })}
       </div>   

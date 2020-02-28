@@ -51,7 +51,7 @@ export default function LocationsList() {
             <div className="character-list " key={data.id}>
               <h2>
                 <span aria-label="smile" role="img">
-                    :)
+                🧙
                 </span>
                 {data.name}
               </h2>
